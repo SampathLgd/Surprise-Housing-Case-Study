@@ -50,20 +50,16 @@ SalePrice  , while yyy is assigned the  SalePrice  column.
 testing. 
 
 ### Building and Evaluating ML Models: 
-----
+
 ●  Ridge Regression  : 
-○  A Ridge regression model is trained with hyperparameter tuning via 
-GridSearchCV  . 
-The optimal alpha found was 0.0001. 
-○  The model demonstrates an R2 score of 1.00 for the training set and 
+  A Ridge regression model is trained with hyperparameter tuning via 
+GridSearchCV .The optimal alpha found was 0.0001.The model demonstrates an R2 score of 1.00 for the training set and 
 0.89 for the test set, indicating excellent performance with very low 
 RMSE values. 
 
-----
 ●  Lasso Regression  : 
-○  A similar procedure is followed for Lasso regression, with the best 
-alpha determined to be 0.05. 
-○  The Lasso model shows R2 scores of 0.76 for the training set and 0.74 
+ A similar procedure is followed for Lasso regression, with the best 
+alpha determined to be 0.05.The Lasso model shows R2 scores of 0.76 for the training set and 0.74 
 for the test set, with higher RMSE scores compared to Ridge.
 
 -----
