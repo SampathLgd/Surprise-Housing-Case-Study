@@ -11,14 +11,14 @@ below-market value and sell when priced higher. The research stages involved are
 cleaning data, exploratory data analysis (EDA), building models with machine 
 learning, and assessing the model . 
 
-------
+
 ## Objective 
 This study focuses mainly on the prediction of housing prices in Australia using all 
 independent variables from the dataset available. The model will serve as a means 
 to determine how Surprise Housing management can refine its business strategy 
 based on areas yielding higher returns after it has been directed towards them. 
 
-------
+
 ## Introduction 
 Surprise Housing, a US-based company, seeks to enter the Australian housing 
 market by identifying properties that can be bought below their market value and 
@@ -26,7 +26,7 @@ sold at a profit. Using data analytics, the company aims to create a predictive
 model to evaluate housing prices based on collected sales data. This model will 
 help guide their investment strategies and maximize profitability.
 
------
+
 
 ## Methodology 
 
@@ -62,7 +62,7 @@ RMSE values.
 alpha determined to be 0.05.The Lasso model shows R2 scores of 0.76 for the training set and 0.74 
 for the test set, with higher RMSE scores compared to Ridge.
 
------
+
 ## Conclusion 
 The models developed in this study provide significant insights into the factors 
 influencing housing prices in Australia. Ridge regression outperformed Lasso 
